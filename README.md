@@ -12,13 +12,13 @@ refers to.
 With iit, the range-based for loop takes 22 characters. 
 
     	std::vector<int> v{ 1, 2, 3, 4 };
-    
     	for (auto t : iit(v))
     	    if(t == v.begin())
     	      std::cout << *t << std::endl;
 
 Without iit, 44 characters are needed for the same functionality.
     
+    	std::vector<int> v{ 1, 2, 3, 4 };
     	for (auto t = v.begin(); t != v.end(); ++t)
     	  if(t == v.begin())
     	    std::cout << *t << std::endl;
