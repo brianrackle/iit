@@ -1,4 +1,4 @@
-iit
+iit (iterator iterator)
 ===
 
 iit is a simple header file that provides an iterator that encapsulates an existing iterator
