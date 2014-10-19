@@ -7,7 +7,7 @@ retrieved when a reference value would normally be retrieved. This is particular
 when using range-based for loops and an iterator is required, rather than the value the iterator
 refers to.
 
-[Explaination of implementation on blog](http://blog.brainstembreakfast.com/update/c++/2014/10/19/the-iterator-iterator/)
+[Explaination of implementation](http://blog.brainstembreakfast.com/update/c++/2014/10/19/the-iterator-iterator/)
 
 ##Usage
 
